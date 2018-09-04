@@ -83,7 +83,7 @@ class TicketBuilder
 
         $this->addSplitter('=');
         $this->addLabelValue('IVA',$this->priceFormat($totaliva));
-        $this->addLabelValue('TOTAL DEL DOCUMENT:',$this->priceFormat($document->total));
+        $this->addLabelValue('TOTAL DEL DOCUMENTO:',$this->priceFormat($document->total));
     }
 
     public function writeFooterBlock($footerLines, $leyenda, $codigo)
